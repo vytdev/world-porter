@@ -1,0 +1,26 @@
+{
+	"format_version": 2,
+
+	"header": {
+		"name": "World Porter",
+		"description": "Shows the hidden world import and export buttons. By §bvytdev§r",
+		"version": "1.0.0",
+		"uuid": "ce865edb-a279-485b-876a-644b08c07ee0",
+		"min_engine_version": [ 1, 18, 0 ]
+	},
+
+	"modules": [
+		{
+			"description": "resource",
+			"type": "resources",
+			"uuid": "62c28246-78b2-42a9-814f-12654c5d8f74",
+			"version": [ 1, 0, 0 ]
+		}
+	],
+
+	"metadata": {
+		"authors": [ "VYT" ],
+		"license": "MIT",
+		"url": "https://github.com/vytdev/world-porter"
+	}
+}

@@ -1,0 +1,71 @@
+{
+	"namespace": "world_section",
+
+	// add the export world and template buttons
+	"game_section": {
+		"modifications": [
+			// let's make a new panel for this
+			{
+				"control_name": "world_management_label",
+				"operation": "insert_after",
+				"value": [
+					{
+						// export buttons root panel
+						"export_buttons_panel": {
+							"ignored": "(not $is_world_edit or $is_editor_mode_enabled)",
+							"type": "panel",
+							"size": [ "100%", "100%c" ],
+							"controls": [
+								{
+									// the actual buttons, stacked horizontally
+									"export_buttons": {
+										"type": "stack_panel",
+										"orientation": "horizontal",
+										"size": [ "100%", 30 ],
+										"controls": [
+											{
+												// export world button
+												"export_world@world_section.export_world_button": {
+													"ignored": false,
+													"size": "$el_size",
+													"$el_size|default": [ "100%", 30 ],
+													"variables": {
+														"requires": "$export_template_disabled",
+														"$el_size": [ "50%", 30 ]
+													}
+												}
+											},
+											{
+												// a padding (space between)
+												"padding": {
+													"ignored": "(not $export_template_disabled)",
+													"type": "panel",
+													"size": [ 1, 0 ]
+												}
+											},
+											{
+												// export template button
+												"export_template@world_section.export_template_button": {
+													"ignored": "(not $export_template_disabled)",
+													"size": [ "50%", 30 ]
+												}
+											}
+										]
+									}
+								}
+							]
+						}
+					},
+					{
+						// padding between the next element and export_buttons_panel
+						"export_buttons_divider": {
+							"ignored": "(not $is_world_edit or $is_editor_mode_enabled)",
+							"type": "panel",
+							"size": [ "100%", 2 ]
+						}
+					}
+				]
+			}
+		]
+	}
+}

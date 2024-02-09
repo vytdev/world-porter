@@ -1,0 +1,8 @@
+{
+	"namespace": "play",
+
+	// show the import world button
+	"worlds_stack_panel/header_button/buttons": {
+		"$ternary_visible": true
+	}
+}
