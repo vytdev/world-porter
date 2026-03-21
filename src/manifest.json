@@ -4,7 +4,7 @@
 	"header": {
 		"name": "World Porter",
 		"description": "Shows the hidden world import and export buttons. By §bvytdev§r",
-		"version": "1.0.0",
+		"version": "1.0.1",
 		"uuid": "ce865edb-a279-485b-876a-644b08c07ee0",
 		"min_engine_version": [ 1, 18, 0 ]
 	},

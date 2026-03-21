@@ -12,7 +12,6 @@
 					{
 						// export buttons root panel
 						"export_buttons_panel": {
-							"ignored": "(not $is_world_edit or $is_editor_mode_enabled)",
 							"type": "panel",
 							"size": [ "100%", "100%c" ],
 							"controls": [
@@ -59,7 +58,6 @@
 					{
 						// padding between the next element and export_buttons_panel
 						"export_buttons_divider": {
-							"ignored": "(not $is_world_edit or $is_editor_mode_enabled)",
 							"type": "panel",
 							"size": [ "100%", 2 ]
 						}

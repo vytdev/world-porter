@@ -8,6 +8,8 @@ A simple texture pack to reveal the hidden world import and export buttons.
 
 </div>
 
+For mobile players who don't get a proper world import/export button.
+
 ### Features
 
 This pack is useful when you're transferring your worlds from "Application" to
@@ -48,7 +50,7 @@ Any contribution is greatly appreciated! Feel free to contribute to the add-on!
 
 ### License
 
-Copyright &copy; 2024 Vincent Yanzee J. Tan. Licensed under the MIT License.
+Copyright &copy; 2024-2026 Vincent Yanzee J. Tan. Licensed under the MIT License.
 See [LICENSE](LICENSE) for more details.
 
 [releases]: https://github.com/vytdev/world-porter/releases
