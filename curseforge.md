@@ -1,12 +1,6 @@
-<div align="center">
-
-![icon](src/pack_icon.png)
-
 # World Porter
 
 A simple texture pack to reveal the hidden world import and export buttons.
-
-</div>
 
 For mobile players who don't get a proper world import/export button.
 
@@ -47,14 +41,10 @@ Follow these steps:
 
 Now you're done setting it up!
 
-### Contributing
-
-Any contribution is greatly appreciated! Feel free to contribute to the add-on!
-
 ### License
 
 Copyright &copy; 2024-2026 Vincent Yanzee J. Tan. Licensed under the MIT License.
-See [LICENSE][license] for more details.
+See [LICENSE][license] for more details. You can view the [source code here][src].
 
 
 <!-- urls -->
@@ -63,5 +53,6 @@ See [LICENSE][license] for more details.
 [img02]: https://raw.github.com/vytdev/world-porter/master/img/02.jpg
 [img03]: https://raw.github.com/vytdev/world-porter/master/img/03.jpg
 
-[dl]: https://www.curseforge.com/minecraft-bedrock/texture-packs/world-porter/files
+[dl]: https://github.com/vytdev/world-porter/releases
 [license]: https://github.com/vytdev/world-porter/blob/master/LICENSE
+[src]: https://github.com/vytdev/world-porter
