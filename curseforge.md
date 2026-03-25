@@ -53,6 +53,6 @@ See [LICENSE][license] for more details. You can view the [source code here][src
 [img02]: https://raw.github.com/vytdev/world-porter/master/img/02.jpg
 [img03]: https://raw.github.com/vytdev/world-porter/master/img/03.jpg
 
-[dl]: https://github.com/vytdev/world-porter/releases
+[dl]: https://www.curseforge.com/minecraft-bedrock/texture-packs/world-porter/files
 [license]: https://github.com/vytdev/world-porter/blob/master/LICENSE
 [src]: https://github.com/vytdev/world-porter
