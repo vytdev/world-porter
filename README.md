@@ -1,3 +1,7 @@
+> I'm not a json ui expert. If you think you could help me make it
+> work on the latest Minecraft Bedrock version 26.10+, please feel
+> free to contribute. Thank you.
+
 <div align="center">
 
 ![icon](src/pack_icon.png)

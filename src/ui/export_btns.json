@@ -1,0 +1,54 @@
+{
+  "namespace": "vytdev_export_btns",
+
+  "buttons_horizontal_stack": {
+    "type": "stack_panel",
+    "orientation": "horizontal",
+    "size": ["100%", "100%"],
+    "anchor_to": "top_middle",
+    "anchor_from": "top_middle",
+    "controls": [
+      {
+        "export_world_button@export_world_button": {
+          "size": [ "50% - 1px", "100%" ],
+          "anchor_from": "left_middle",
+          "anchor_to": "left_middle"
+        }
+      },
+      {
+        "padding01": {
+          "type": "panel",
+          "size": [ 1, 0 ]
+        }
+      },
+      {
+        "export_template_button@export_template_button": {
+          "size": [ "50% - 1px", "100%" ],
+          "anchor_from": "right_middle",
+          "anchor_to": "right_middle"
+        }
+      }
+    ]
+  },
+
+  "export_world_button@pause.pause_button_template": {
+    "$pressed_button_name": "button.export_world_button",
+    "$button_text": "gui.exportWorldLong",
+    // or without the 'button.'??
+    "focus_identifier": "button.export_world_button"
+  },
+
+  "export_template_button@pause.pause_button_template": {
+    "$pressed_button_name": "button.export_template_button",
+    "$button_text": "gui.exportTemplate",
+    "focus_identifier": "button.export_template_button"
+  },
+
+  "export_buttons_panel": {
+    "type": "panel",
+    "size": [ "100%", "100%c" ],
+    "controls": [
+      { "buttons_horizontal_stack@buttons_horizontal_stack": {} }
+    ]
+  }
+}

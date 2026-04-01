@@ -1,0 +1,19 @@
+{
+  "menu_background/button_panel": {
+    "modifications": [
+      {
+        "control_name": "quit_button",
+        "operation": "insert_before",
+        "value": [
+          {
+            // does it really have to be inside the settings screen?
+            "vytdev_export_btns@vytdev_export_btns.export_buttons_panel": {
+              "size": [ "100%", 28 ]
+            }
+          },
+          { "vytdev_export@pause.vertical_padding": { "size": [0,2] } }
+        ]
+      }
+    ]
+  }
+}
