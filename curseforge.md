@@ -1,8 +1,20 @@
+NOTE!!! I'm not a JSON UI expert. If you're a JSON UI dev and think you
+can help me make this work on the latest Minecraft version (v26.10
+and above), even through some crazy workarounds, we're open to contributions
+[through our GitHub repository][src]. Thank you.
+
+This UI pack tries its best to help mobile players whose most important worlds
+were stored in the "Application Folder".
+
 # World Porter
 
 A simple texture pack to reveal the hidden world import and export buttons.
 
 For mobile players who don't get a proper world import/export button.
+
+*If you're on the recent Minecraft versions, you might have to open the world
+first (with this pack already enabled in Global Resources) then go to world
+settings, in order to access the Export World and Export Template buttons.*
 
 ### Features
 
@@ -25,10 +37,6 @@ Import button (no longer visible after OreUI):
 Export world and template button:
 
 ![export button][img03]
-
-If you're on the recent Minecraft versions, you might have to open the world
-first (with this pack already enabled) then go to world settings, in order
-to access the Export World and Export Template buttons.
 
 ### Installation
 

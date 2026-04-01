@@ -1,6 +1,6 @@
 > I'm not a json ui expert. If you think you could help me make it
 > work on the latest Minecraft Bedrock version 26.10+, please feel
-> free to contribute. Thank you.
+> free to contribute. Thank you. You can [open an issue thread here][issue].
 
 <div align="center">
 
@@ -13,6 +13,10 @@ A simple texture pack to reveal the hidden world import and export buttons.
 </div>
 
 For mobile players who don't get a proper world import/export button.
+
+*If you're on the recent Minecraft versions, you might have to open the world
+first (with this pack already enabled in Global Resources) then go to world
+settings, in order to access the Export World and Export Template buttons.*
 
 ### Features
 
@@ -35,10 +39,6 @@ Import button (no longer visible after OreUI):
 Export world and template button:
 
 ![export button][img03]
-
-If you're on the recent Minecraft versions, you might have to open the world
-first (with this pack already enabled) then go to world settings, in order
-to access the Export World and Export Template buttons.
 
 ### Installation
 
@@ -69,3 +69,4 @@ See [LICENSE][license] for more details.
 
 [dl]: https://www.curseforge.com/minecraft-bedrock/texture-packs/world-porter/files
 [license]: https://github.com/vytdev/world-porter/blob/master/LICENSE
+[issue]: https://github.com/vytdev/world-porter/issues/new
