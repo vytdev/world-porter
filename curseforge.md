@@ -1,10 +1,6 @@
-NOTE!!! I'm not a JSON UI expert. If you're a JSON UI dev and think you
-can help me make this work on the latest Minecraft version (v26.10
-and above), even through some crazy workarounds, we're open to contributions
-[through our GitHub repository][src]. Thank you.
-
-This UI pack tries its best to help mobile players whose most important worlds
-were stored in the "Application Folder".
+If this pack doesn't work for you, I suggest trying `faizul726`'s
+[Import/Export Button Unhemider v2][alt1] instead, since it's
+more actively maintained.
 
 # World Porter
 
@@ -64,3 +60,5 @@ See [LICENSE][license] for more details. You can view the [source code here][src
 [dl]: https://www.curseforge.com/minecraft-bedrock/texture-packs/world-porter/files
 [license]: https://github.com/vytdev/world-porter/blob/master/LICENSE
 [src]: https://github.com/vytdev/world-porter
+
+[alt1]: https://mcpedl.com/import-export-button-unhider-for-mcpe/
