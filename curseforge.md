@@ -1,6 +1,7 @@
-If this pack doesn't work for you, I suggest trying `faizul726`'s
-[Import/Export Button Unhemider v2][alt1] instead, since it's
-more actively maintained.
+> Unfortunately, due to recent changes to Minecraft: Bedrock's Ore UI in
+> version 26.10, this pack is no longer guaranteed to work. If you have
+> found a workaround, please let us know so we can inform the users on this
+> page.
 
 # World Porter
 
